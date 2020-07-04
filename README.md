@@ -8,3 +8,8 @@ For the case, I'm sticking (for now) with a simple case: predict whether someone
 
 I suggest a simple value *k* to represent how "biased" a model is relative to some group G in a binary classification problem as the quotient of the probabilities that the groups ¬G and G achieve some positive outcome (in this case, >=50K). The idea is to have a model with low *k* (ideally close to 1) without overfitting or anything like that, but simply by curtailing the bias in the data.
 
+In brief, this is a running list of the approaches I am studying (and their combinations). As I come across more literature/ideas, I'll add them to this list. More details of these are going to be in the notebook files. 
+
+1) Naive Oversampling: 
+
+2) Modified Loss Function: 
