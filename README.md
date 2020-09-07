@@ -10,6 +10,6 @@ I suggest a simple value *k* to represent how "biased" a model is relative to so
 
 In brief, this is a running list of the approaches I am studying (and their combinations). As I come across more literature/ideas, I'll add them to this list. More details of these are going to be in the notebook files. 
 
-1) Naive Oversampling: 
+1) Naive Oversampling: Resample underrepresented groups until their frequency in the training set is consistent with others (giving each point more "weight" in training).
 
-2) Modified Loss Function: 
+2) Modified Loss Function: Punish loss function by introducing an intermediate loss on race. We want the network to fail to predict race accurately through wealth-related metrics. That would mean the model might implicitly be biased. So we coerce the model against this by adding a negative weight to the loss function (More details in Methods). 
